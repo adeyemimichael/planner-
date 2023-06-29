@@ -153,3 +153,33 @@ select {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.location-widget {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  width: 400px; /* Increase the width to make the div bigger */
+  padding: 40px; /* Add padding to create more space inside the div */
+  background-color: #f0f0f0; 
+  height:400px;
+}
+
+.location-title {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.location-text {
+  font-style: italic;
+}
+
+
+.location-widget-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
