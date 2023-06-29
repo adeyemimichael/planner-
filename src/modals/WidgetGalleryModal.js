@@ -6,13 +6,13 @@ import CalendarWidget from '../widgets/CalendarWidget';
 import LocationWidget from '../widgets/MyCustomWidget'; // Import LocationWidget
 
 export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetArea, widgets, setWidgets }) {
-  const galleryWidgets = useState([
+  const galleryWidgets = [
     { component: <ClockWidget />, name: "Date and Time" },
     { component: <ReminderListWidget />, name: "Reminder List" },
     { component: <TimerWidget />, name: "Timer" },
     { component: <CalendarWidget />, name: "Calendar" },
     { component: <LocationWidget />, name: "Location" }, // Add LocationWidget here
-  ]);
+  ];
 
   return (
     <div className="modal" onClick={(e) => setShowWidgetModal(false)}>
